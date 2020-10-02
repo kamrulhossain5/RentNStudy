@@ -1,4 +1,4 @@
-# COMS4995
+# Rent N' Study
 
 ![GitHub](https://img.shields.io/github/license/kamrulhossain5/COMS4995)
 
