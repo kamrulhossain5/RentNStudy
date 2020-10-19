@@ -8,7 +8,7 @@ install:
 
 script:
   - codecov
-  - npx run lint
+  - npm run lint
   - npm run build --if-present
   - npm test
   
