@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Apartments from './Apartments';
+import App from '../App';
 
 test('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Apartments />, div);
+  ReactDOM.render(<App />, div);
 });

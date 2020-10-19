@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Apartments = () => {
-    return (
-        <div>
-            Apartments Page
-        </div>
-    )
-}
+const Apartments = () => (
+  <div>
+    Apartments Page
+  </div>
+);
 
 export default Apartments;

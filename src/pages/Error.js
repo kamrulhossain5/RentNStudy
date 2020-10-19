@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export class Error extends Component {
-    render() {
-        return (
-            <div>
-                Error Page
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        Error Page
+      </div>
+    );
+  }
 }
 
-export default Error
+export default Error;
