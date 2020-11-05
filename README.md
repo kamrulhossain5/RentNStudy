@@ -34,11 +34,11 @@ Created using Sphinx.
 
 Coming Soon.
 
-See CONTRIBUTING.md for more.
+See [CONTRIBUTING.md](https://github.com/kamrulhossain5/RentNStudy/blob/master/CONTRIBUTING.md) for more.
 
 ## License
 
-Distributed under the Apache-2.0 license. See LICENSE for more.
+Distributed under the Apache-2.0 license. See [LICENSE](https://github.com/kamrulhossain5/RentNStudy/blob/master/LICENSE) for more.
 
 ## Acknowledgements
 
