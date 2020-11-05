@@ -1,76 +1,45 @@
-# Rent N' Study
+# RentNStudy
 
 ![GitHub](https://img.shields.io/github/license/kamrulhossain5/COMS4995)
 ![Travis (.org)](https://img.shields.io/travis/kamrulhossain5/RentNStudy)
 ![Codecov](https://img.shields.io/codecov/c/github/kamrulhossain5/RentNStudy)
+[![Docs](https://img.shields.io/readthedocs/rentnstudy.svg)](https://rentnstudy.readthedocs.io)
 
-College Housing Rental Site that would exclusively allow college affiliates (student and faculty) to look for housing easily and reliably all year long.
+RentNStudy is a College Housing Rental Site that would exclusively allow college affiliates (student and faculty) to look for housing easily and reliably all year long.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Usage
 
-## Available Scripts
+1. Able to search for housing by type, price, and size.
+2. Able to be view relevant details and information on specific housing apartments.
 
-In the project directory, you can run:
+To use RentNStudy, create a copy of the project. In the project directory, you can run:
 
-### `npm start`
+### npm start
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
+### npm run build
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Documentation is hosted through ReadTheDocs [here](https://rentnstudy.readthedocs.io/).
 
-### `npm run eject`
+Created using Sphinx.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Coming Soon.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+See CONTRIBUTING.md for more.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+Distributed under the Apache-2.0 license. See LICENSE for more.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+RentNStudy uses a variety of technologies for this project. It uses React Router for routing, React Context API for state management, and Contentful Headless CMS for Data Management.

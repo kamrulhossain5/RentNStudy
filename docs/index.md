@@ -1,14 +1,7 @@
 # Welcome to RentNStudy's documentation!
 
-## This is a first header
+.. toctree::
+   :maxdepth: 2
 
-- These
-- are
-- some 
-- bullets
-
-
-```eval_rst
-.. note::
-    We can still mix rst, which we'll use for autodocumentation
-```
+   README.md
+   autoapi/index

@@ -41,6 +41,10 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+# -- AutoAPI (see: https://github.com/readthedocs/sphinx-autoapi)
+extensions.append('autoapi.extension')
+autoapi_type = 'javascript'
+autoapi_dirs = ['../src']
 
 # -- Options for HTML output -------------------------------------------------
 
