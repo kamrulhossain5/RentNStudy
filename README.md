@@ -3,6 +3,7 @@
 ![GitHub](https://img.shields.io/github/license/kamrulhossain5/COMS4995)
 ![Travis (.org)](https://img.shields.io/travis/kamrulhossain5/RentNStudy)
 ![Codecov](https://img.shields.io/codecov/c/github/kamrulhossain5/RentNStudy)
+[![Docs](https://img.shields.io/readthedocs/rentnstudy.svg)](https://rentnstudy.readthedocs.io)
 
 College Housing Rental Site that would exclusively allow college affiliates (student and faculty) to look for housing easily and reliably all year long.
 
