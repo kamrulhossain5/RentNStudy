@@ -8,12 +8,12 @@ import Error from './pages/Error';
 
 function App() {
   return (
-    <>
+    <div>
       <Home />
       <Apartments />
       <SingleApartment />
       <Error />
-    </>
+    </div>
   );
 }
 
