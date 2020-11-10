@@ -1,7 +1,7 @@
 # RentNStudy
 
 ![GitHub](https://img.shields.io/github/license/kamrulhossain5/COMS4995)
-![Travis (.org)](https://img.shields.io/travis/kamrulhossain5/RentNStudy)
+![Build](https://img.shields.io/github/workflow/status/kamrulhossain5/RentNStudy/Tests)
 ![Coverage](./coverage/badge.svg)
 [![Docs](https://img.shields.io/readthedocs/rentnstudy.svg)](https://rentnstudy.readthedocs.io)
 
