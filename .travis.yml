@@ -5,8 +5,18 @@ node_js:
 
 install:
   - npm install -g codecov
+  - npm install eslint --save-dev
+
+eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: stefanoeb/eslint-action@1.0.2
+        with:
+          files: src/pages/
 
 script:
+  - istanbul cover ./node_modules/mocha/bin/_mocha --reporter lcovonly -- -R spec
   - codecov
   
 after_success:
