@@ -6,7 +6,7 @@ import Apartments from './pages/Apartments';
 import SingleApartment from './pages/SingleApartment';
 import Error from './pages/Error';
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import Navbar from './components/Navbar';
 
