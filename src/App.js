@@ -14,14 +14,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/apartments/" component={Apartments}/>
-          <Route exact path="/apartments/:apartmentName" component={SingleApartment}/>
-          <Route component={Error} />
-        </Switch>
-      </BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/apartments/" component={Apartments}/>
+        <Route exact path="/apartments/:apartmentName" component={SingleApartment}/>
+        <Route component={Error} />
+      </Switch>
     </>
   );
 }

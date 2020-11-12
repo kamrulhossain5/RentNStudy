@@ -16,7 +16,7 @@ sys.path.insert(0, os.path.abspath('..'))
 import sphinx_rtd_theme
 from recommonmark.transform import AutoStructify
 
-
+master_doc = "index"
 # -- Project information -----------------------------------------------------
 
 project = 'RentNStudy'
@@ -25,16 +25,16 @@ author = 'Kamrul Hossain'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
-primary_domain = 'js'
 
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark']
-autoapi_dirs = ['../src']
+extensions = ['recommonmark', 'sphinx_js']
 source_suffix = ['.rst', '.md']
+js_source_path = '../src/'
+primary_domain = 'js'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
