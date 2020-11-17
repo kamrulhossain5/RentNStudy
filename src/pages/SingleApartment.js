@@ -14,8 +14,8 @@ export default class SingleApartment extends Component {
   };
   componentDidMount() {
     // console.log(this.props);
-    const apartment = JSON.parse(localStorage.getItem("single-apartment"));
-    const [mainBcg, ...images] = apartment.images;
+    const apartment = JSON.parse(localStorage.getItem("single-apartment")) || [];
+    const [mainBcg, ...images] = apartment.images ? apartment.images : [];;
     this.setState({ apartment, error: false, mainBcg, images });
   }
   render() {
@@ -86,7 +86,7 @@ export default class SingleApartment extends Component {
         <section className="apartment-extras">
           <h6>extras </h6>
           <ul className="extras">
-            {extras.map((item, index) => (
+            {extras && extras.map((item, index) => (
               <li key={index}>- {item}</li>
             ))}
           </ul>

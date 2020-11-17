@@ -4,8 +4,8 @@ import { ApartmentContext } from "../context";
 import Apartment from "./Apartment";
 import Loading from "./Loading";
 export default class FeaturedApartments extends Component {
+  
   static contextType = ApartmentContext;
-
   render() {
     let { loading, featuredApartments: apartments, setApartment } = this.context;
 
