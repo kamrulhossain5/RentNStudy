@@ -30,6 +30,14 @@ Documentation is hosted through ReadTheDocs [here](https://rentnstudy.readthedoc
 
 Created using Sphinx.
 
+## Demo
+
+Home Page where the users can see the the featured apartments and the different types of services offered
+![](./demo/home.gif)
+
+Apartment Page where users can search for housing by type, price, size, etc.
+![](./demo/apartment.gif)
+
 ## Contributing
 
 Coming Soon.
