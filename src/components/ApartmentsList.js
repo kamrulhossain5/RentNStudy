@@ -1,6 +1,6 @@
 import React from "react";
 import Apartment from "./Apartment";
-const ApartmentsList = ({ apartments, setApartment }) => {
+const ApartmentsList = ({ apartments, getApartment }) => {
   if (apartments.length === 0) {
     return (
       <div className="empty-search">
@@ -12,7 +12,7 @@ const ApartmentsList = ({ apartments, setApartment }) => {
     <section className="apartmentslist">
       <div className="apartmentslist-center">
         {apartments.map(item => {
-          return <Apartment key={item.id} apartment={item} setApartment={setApartment} />;
+          return <Apartment key={item.id} apartment={item} getApartment={getApartment} />;
         })}
       </div>
     </section>

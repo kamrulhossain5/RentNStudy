@@ -22,7 +22,7 @@ export default [
     },
     fields: {
       name: 'single economy',
-      slug: 'single-economy',
+      apartmentName: 'single-economy',
       type: 'single',
       price: 100,
       size: 200,
@@ -79,7 +79,7 @@ export default [
     },
     fields: {
       name: 'single basic',
-      slug: 'single-basic',
+      apartmentName: 'single-basic',
       type: 'single',
       price: 150,
       size: 250,
@@ -136,7 +136,7 @@ export default [
     },
     fields: {
       name: 'single standard',
-      slug: 'single-standard',
+      apartmentName: 'single-standard',
       type: 'single',
       price: 250,
       size: 300,
@@ -193,7 +193,7 @@ export default [
     },
     fields: {
       name: 'single deluxe',
-      slug: 'single-deluxe',
+      apartmentName: 'single-deluxe',
       type: 'single',
       price: 300,
       size: 400,
@@ -250,7 +250,7 @@ export default [
     },
     fields: {
       name: 'double economy',
-      slug: 'double-economy',
+      apartmentName: 'double-economy',
       type: 'double',
       price: 200,
       size: 300,
@@ -307,7 +307,7 @@ export default [
     },
     fields: {
       name: 'double basic',
-      slug: 'double-basic',
+      apartmentName: 'double-basic',
       type: 'double',
       price: 250,
       size: 350,
@@ -364,7 +364,7 @@ export default [
     },
     fields: {
       name: 'double standard',
-      slug: 'double-standard',
+      apartmentName: 'double-standard',
       type: 'double',
       price: 300,
       size: 400,
@@ -421,7 +421,7 @@ export default [
     },
     fields: {
       name: 'double deluxe',
-      slug: 'double-deluxe',
+      apartmentName: 'double-deluxe',
       type: 'double',
       price: 400,
       size: 500,
@@ -478,7 +478,7 @@ export default [
     },
     fields: {
       name: 'family economy',
-      slug: 'family-economy',
+      apartmentName: 'family-economy',
       type: 'family',
       price: 300,
       size: 500,
@@ -535,7 +535,7 @@ export default [
     },
     fields: {
       name: 'family basic',
-      slug: 'family-basic',
+      apartmentName: 'family-basic',
       type: 'family',
       price: 350,
       size: 550,
@@ -592,7 +592,7 @@ export default [
     },
     fields: {
       name: 'family standard',
-      slug: 'family-standard',
+      apartmentName: 'family-standard',
       type: 'family',
       price: 400,
       size: 600,
@@ -649,7 +649,7 @@ export default [
     },
     fields: {
       name: 'family deluxe',
-      slug: 'family-deluxe',
+      apartmentName: 'family-deluxe',
       type: 'family',
       price: 500,
       size: 700,
@@ -706,7 +706,7 @@ export default [
     },
     fields: {
       name: 'luxury',
-      slug: 'luxury-apartment',
+      apartmentName: 'luxury-apartment',
       type: 'luxury',
       price: 600,
       size: 1000,

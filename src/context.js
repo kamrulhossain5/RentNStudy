@@ -51,10 +51,10 @@ export default class ApartmentProvider extends Component {
     });
     return tempItems;
   }
-  setApartment = slug => {
+  getApartment = apartmentName => {
     let tempApartments = [...this.state.apartments];
-    const apartment = tempApartments.find(apartment => apartment.slug === slug);
-    localStorage.setItem("single-apartment", JSON.stringify(apartment));
+    const apartment = tempApartments.find(apartment => apartment.apartmentName === apartmentName);
+    return apartment;
   };
   handleChange = event => {
     const target = event.target;
@@ -106,7 +106,7 @@ export default class ApartmentProvider extends Component {
     }
     //filter by pets
     if (pets) {
-      tempApartments = tempApartments.filter(apartment => apartment.breakfast === true);
+      tempApartments = tempApartments.filter(apartment => apartment.pets === true);
     }
     this.setState({
       sortedApartments: tempApartments
@@ -117,7 +117,7 @@ export default class ApartmentProvider extends Component {
       <ApartmentContext.Provider
         value={{
           ...this.state,
-          setApartment: this.setApartment,
+          getApartment: this.getApartment,
           handleChange: this.handleChange
         }}
       >

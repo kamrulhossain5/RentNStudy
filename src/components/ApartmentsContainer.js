@@ -5,14 +5,14 @@ import ApartmentsFilter from "./ApartmentsFilter";
 import ApartmentsList from "./ApartmentsList";
 
 function ApartmentContainer({ context }) {
-  const { loading, setApartment, sortedApartments, apartments } = context;
+  const { loading, getApartment, sortedApartments, apartments } = context;
   if (loading) {
     return <Loading />;
   }
   return (
     <>
       <ApartmentsFilter apartments={apartments} />
-      <ApartmentsList apartments={sortedApartments} setApartment={setApartment} />
+      <ApartmentsList apartments={sortedApartments} getApartment={getApartment} />
     </>
   );
 }
