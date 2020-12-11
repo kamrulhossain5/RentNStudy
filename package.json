@@ -18,7 +18,7 @@
     "lint": "./node_modules/.bin/eslint --fix src/pages/*.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test src/tests/Error.test.js",
     "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject"
   },
