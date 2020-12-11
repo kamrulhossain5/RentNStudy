@@ -7,6 +7,8 @@
 
 RentNStudy is a College Housing Rental Site that would exclusively allow college affiliates (student and faculty) to look for housing easily and reliably all year long.
 
+Demo: https://rentnstudy.netlify.app/
+
 ## Usage
 
 1. Able to search for housing by type, price, and size.
